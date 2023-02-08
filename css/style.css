@@ -11,6 +11,7 @@
   padding: 10px 0px;
   display: grid;
   place-items: center;
+  grid-template-columns: 1fr;
 }
 
 .main_header > nav {
@@ -20,5 +21,12 @@
 @media only screen and (min-width: 720px) {
   .main_header {
     background-color: lightcoral;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .main_header {
+    background-color: violet;
   }
 }
