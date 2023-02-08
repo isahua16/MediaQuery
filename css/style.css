@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_header {
+  min-height: 10vh;
+  width: 100%;
+  background-color: cadetblue;
+  padding: 10px 0px;
+  display: grid;
+  place-items: center;
+}
+
+.main_header > nav {
+  gap: 10px;
+}
+
+@media only screen and (min-width: 720px) {
+  .main_header {
+    background-color: lightcoral;
+  }
+}
